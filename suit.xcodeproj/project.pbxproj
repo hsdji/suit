@@ -13,6 +13,7 @@
 		96A43E411E5589B4006AC76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A43E3F1E5589B4006AC76B /* Main.storyboard */; };
 		96A43E431E5589B4006AC76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A43E421E5589B4006AC76B /* Assets.xcassets */; };
 		96A43E461E5589B4006AC76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A43E441E5589B4006AC76B /* LaunchScreen.storyboard */; };
+		96A43E4F1E558A8B006AC76B /* CFFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A43E4E1E558A8B006AC76B /* CFFrameParserConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		96A43E421E5589B4006AC76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A43E451E5589B4006AC76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A43E471E5589B4006AC76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A43E4D1E558A8B006AC76B /* CFFrameParserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFrameParserConfig.h; sourceTree = "<group>"; };
+		96A43E4E1E558A8B006AC76B /* CFFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFrameParserConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				96A43E3A1E5589B4006AC76B /* AppDelegate.m */,
 				96A43E3C1E5589B4006AC76B /* ViewController.h */,
 				96A43E3D1E5589B4006AC76B /* ViewController.m */,
+				96A43E4D1E558A8B006AC76B /* CFFrameParserConfig.h */,
+				96A43E4E1E558A8B006AC76B /* CFFrameParserConfig.m */,
 				96A43E3F1E5589B4006AC76B /* Main.storyboard */,
 				96A43E421E5589B4006AC76B /* Assets.xcassets */,
 				96A43E441E5589B4006AC76B /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				96A43E3E1E5589B4006AC76B /* ViewController.m in Sources */,
 				96A43E3B1E5589B4006AC76B /* AppDelegate.m in Sources */,
 				96A43E381E5589B4006AC76B /* main.m in Sources */,
+				96A43E4F1E558A8B006AC76B /* CFFrameParserConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
