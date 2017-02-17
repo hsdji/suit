@@ -44,10 +44,13 @@
     CGFloat textHeight = coreTextSize.height;
 //    生成CTFrameRef实例
     CTFrameRef frame = [self createFrameWithFramesetter:framesetter config:config height:textHeight];
-//    将生成的好的额CTFrameRef实例和计算好的绘制高度
-    
-//    
-    
+//    将生成的好的额CTFrameRef实例和计算好的绘制高度保存道CoreTextData实例中，最后返回CoreTextData实例
+    CoreTextData *data = [[CoreTextData alloc]init];
+    data.ctFrame = frame;
+    data.height = textHeight;
+    CFRelease(frame);
+    CFRelease(framesetter);
+    return data;
 }
 
 
@@ -60,42 +63,4 @@
     return frame;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @end
